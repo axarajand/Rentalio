@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.ardroid.rentalio.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.ardroid.rentalio.ui.history.HistoryFragment"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.ardroid.rentalio.ui.help.HelpFragment"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.ardroid.rentalio.ui.account.AccountFragment"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/navigation_vehicle_book"
+        android:name="com.ardroid.rentalio.ui.vehiclebook.VehicleBookFragment"
+        tools:layout="@layout/fragment_vehicle_book" />
+
+    <fragment
+        android:id="@+id/navigation_date"
+        android:name="com.ardroid.rentalio.ui.date.DateFragment"
+        tools:layout="@layout/fragment_date" />
+</navigation>

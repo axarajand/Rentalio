@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.vehiclebook.VehicleBookFragment"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <include
+                android:id="@+id/car_detail"
+                layout="@layout/holder_car_detail" />
+
+            <include
+                android:id="@+id/car_choose"
+                layout="@layout/holder_car_choose" />
+
+            <include
+                android:id="@+id/car_price"
+                layout="@layout/holder_car_price" />
+
+            <CheckBox
+                android:id="@+id/check_agree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:text="@string/check_agree"
+                android:textSize="9sp"
+                tools:ignore="SmallSp" />
+
+            <Button
+                android:id="@+id/btn_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:backgroundTint="@color/rentalio_grey_light"
+                android:text="@string/btn_book"
+                android:textSize="24sp"
+                android:textColor="@color/rentalio_white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

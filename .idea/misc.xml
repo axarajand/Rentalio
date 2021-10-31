@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/bg_bottom_date.xml" value="0.23425925925925925" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/bg_text_date.xml" value="0.2740740740740741" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/color_box.xml" value="0.2740740740740741" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/cs.xml" value="0.23425925925925925" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/cs_scrollcalendar_range_end.xml" value="0.23425925925925925" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/cs_scrollcalendar_range_middle.xml" value="0.23425925925925925" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/cs_scrollcalendar_range_start.xml" value="0.23425925925925925" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/holder_car_price.xml" value="0.2740740740740741" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.23425925925925925" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/ic_outline_account_circle_24.xml" value="0.26851851851851855" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/ic_outline_live_help_24.xml" value="0.15520833333333334" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/scrollcalendar_circle_full.xml" value="0.23425925925925925" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/activity_date.xml" value="0.27447916666666666" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/fragment_account.xml" value="0.2604166666666667" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/fragment_date.xml" value="0.264" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/fragment_fullscreen.xml" value="0.27447916666666666" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/fragment_help.xml" value="0.23703703703703705" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/fragment_history.xml" value="0.264" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/fragment_vehicle_book.xml" value="0.27447916666666666" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/holder_car_choose.xml" value="0.264" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/holder_car_detail.xml" value="0.27447916666666666" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/holder_car_price.xml" value="0.264" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/item_banner_slider.xml" value="0.27447916666666666" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/item_vehicle.xml" value="0.27447916666666666" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/layout/layout_toolbar.xml" value="0.2" />
+        <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/menu/bottom_nav_menu.xml" value="0.23703703703703705" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
