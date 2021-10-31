@@ -1,4 +1,4 @@
-package com.ardroid.rentalio.ui.home
+package com.ardroid.rentalio.ui.pages.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,14 +8,17 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.ardroid.rentalio.*
+import com.ardroid.rentalio.R
 import com.ardroid.rentalio.databinding.FragmentHomeBinding
+import com.ardroid.rentalio.domain.bannerList
+import com.ardroid.rentalio.ui.pages.home.adapter.BannerAdapter
+import com.ardroid.rentalio.ui.pages.vehiclebook.adapter.VehicleAdapter
 
 class HomeFragment : Fragment() {
 
     private lateinit var homeViewModel: HomeViewModel
     private var _binding: FragmentHomeBinding? = null
-    lateinit var vehicleAdapter: VehicleAdapter
+    private lateinit var vehicleAdapter: VehicleAdapter
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,12 +28,14 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        homeViewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
+    ): View {
+        homeViewModel = ViewModelProvider(this)[HomeViewModel::class.java]
         vehicleAdapter = VehicleAdapter()
 
-        vehicleAdapter.setVehicle(vehicleList)
-        vehicleAdapter.onItemClick = { selected ->
+        homeViewModel.vehicles.observe(viewLifecycleOwner, {
+            vehicleAdapter.setVehicle(it)
+        })
+        vehicleAdapter.onItemClick = { _ ->
             findNavController().navigate(
                 R.id.navigation_vehicle_book
             )

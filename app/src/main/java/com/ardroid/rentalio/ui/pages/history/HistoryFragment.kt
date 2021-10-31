@@ -1,4 +1,4 @@
-package com.ardroid.rentalio.ui.help
+package com.ardroid.rentalio.ui.pages.history
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,14 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.ardroid.rentalio.databinding.FragmentHelpBinding
+import com.ardroid.rentalio.databinding.FragmentHistoryBinding
 
-class HelpFragment : Fragment() {
+class HistoryFragment : Fragment() {
 
-    private lateinit var helpViewModel: HelpViewModel
-    private var _binding: FragmentHelpBinding? = null
+    private lateinit var historyViewModel: HistoryViewModel
+    private var _binding: FragmentHistoryBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,15 +22,15 @@ class HelpFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        helpViewModel =
-            ViewModelProvider(this).get(HelpViewModel::class.java)
+    ): View {
+        historyViewModel =
+            ViewModelProvider(this)[HistoryViewModel::class.java]
 
-        _binding = FragmentHelpBinding.inflate(inflater, container, false)
+        _binding = FragmentHistoryBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHelp
-        helpViewModel.text.observe(viewLifecycleOwner, Observer {
+        val textView: TextView = binding.textHistory
+        historyViewModel.text.observe(viewLifecycleOwner, {
             textView.text = it
         })
         return root

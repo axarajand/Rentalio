@@ -1,4 +1,4 @@
-package com.ardroid.rentalio.ui.vehiclebook
+package com.ardroid.rentalio.ui.pages.vehiclebook
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -17,7 +17,7 @@ class VehicleBookFragment : Fragment(), View.OnClickListener {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
 
         _binding = FragmentVehicleBookBinding.inflate(inflater, container, false)

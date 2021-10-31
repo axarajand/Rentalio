@@ -1,9 +1,11 @@
-package com.ardroid.rentalio
+package com.ardroid.rentalio.ui.pages.home.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.ardroid.rentalio.R
+import com.ardroid.rentalio.domain.BannerModel
 import com.bumptech.glide.Glide
 
 class BannerAdapter(private val bannerListItem: List<BannerModel>) : RecyclerView.Adapter<BannerViewHolder>(){
@@ -26,7 +28,7 @@ class BannerAdapter(private val bannerListItem: List<BannerModel>) : RecyclerVie
 }
 
 class BannerViewHolder(private val view: View): RecyclerView.ViewHolder(view){
-    val bannerImageView: ImageView = view.findViewById(R.id.banner_image_view)
+    private val bannerImageView: ImageView = view.findViewById(R.id.banner_image_view)
 
     fun bind(bannerItem: BannerModel){
         Glide.with(view.context)

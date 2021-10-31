@@ -1,4 +1,4 @@
-package com.ardroid.rentalio.ui.history
+package com.ardroid.rentalio.ui.pages.history
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

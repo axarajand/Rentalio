@@ -90,11 +90,16 @@
             android:padding="15dp">
 
             <TextView
-                android:layout_width="0dp"
+                android:id="@+id/day_selected"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="@string/date_select"
                 android:textColor="@color/rentalio_black" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
 
             <Button
                 android:id="@+id/btn_save"
@@ -103,6 +108,7 @@
                 android:backgroundTint="@color/rentalio_blue"
                 android:padding="13dp"
                 android:text="@string/btn_save"
+                android:enabled="false"
                 android:textAllCaps="false"
                 android:textSize="15sp" />
         </LinearLayout>

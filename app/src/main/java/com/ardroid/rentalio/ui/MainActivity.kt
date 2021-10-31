@@ -1,10 +1,11 @@
-package com.ardroid.rentalio
+package com.ardroid.rentalio.ui
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
+import com.ardroid.rentalio.R
 import com.ardroid.rentalio.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 

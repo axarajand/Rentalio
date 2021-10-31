@@ -1,16 +1,20 @@
-package com.ardroid.rentalio
+package com.ardroid.rentalio.ui.pages.vehiclebook.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.ardroid.rentalio.R
 import com.ardroid.rentalio.databinding.ItemVehicleBinding
+import com.ardroid.rentalio.domain.VehicleModel
 
 class VehicleAdapter : RecyclerView.Adapter<VehicleAdapter.VehicleViewHolder>() {
 
     private var listVehicle = ArrayList<VehicleModel>()
     var onItemClick: ((VehicleModel) -> Unit)? = null
 
+    @SuppressLint("NotifyDataSetChanged")
     fun setVehicle(newListVehicle: List<VehicleModel>?) {
         if (newListVehicle == null) return
         listVehicle.clear()

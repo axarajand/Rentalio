@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.vehiclebook.VehicleBookFragment"
+    tools:context=".ui.pages.vehiclebook.VehicleBookFragment"
     android:orientation="vertical">
 
     <include
@@ -47,6 +47,26 @@
                 android:text="@string/check_agree"
                 android:textSize="9sp"
                 tools:ignore="SmallSp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/dot_agree" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/dot_agree" />
+            </LinearLayout>
 
             <Button
                 android:id="@+id/btn_book"

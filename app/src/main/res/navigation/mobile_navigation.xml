@@ -7,31 +7,31 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.ardroid.rentalio.ui.home.HomeFragment"
+        android:name="com.ardroid.rentalio.ui.pages.home.HomeFragment"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_history"
-        android:name="com.ardroid.rentalio.ui.history.HistoryFragment"
+        android:name="com.ardroid.rentalio.ui.pages.history.HistoryFragment"
         tools:layout="@layout/fragment_history" />
 
     <fragment
         android:id="@+id/navigation_help"
-        android:name="com.ardroid.rentalio.ui.help.HelpFragment"
+        android:name="com.ardroid.rentalio.ui.pages.help.HelpFragment"
         tools:layout="@layout/fragment_help" />
 
     <fragment
         android:id="@+id/navigation_account"
-        android:name="com.ardroid.rentalio.ui.account.AccountFragment"
+        android:name="com.ardroid.rentalio.ui.pages.account.AccountFragment"
         tools:layout="@layout/fragment_account" />
 
     <fragment
         android:id="@+id/navigation_vehicle_book"
-        android:name="com.ardroid.rentalio.ui.vehiclebook.VehicleBookFragment"
+        android:name="com.ardroid.rentalio.ui.pages.vehiclebook.VehicleBookFragment"
         tools:layout="@layout/fragment_vehicle_book" />
 
     <fragment
         android:id="@+id/navigation_date"
-        android:name="com.ardroid.rentalio.ui.date.DateFragment"
+        android:name="com.ardroid.rentalio.ui.pages.date.DateFragment"
         tools:layout="@layout/fragment_date" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.ardroid.rentalio.ui.help
+package com.ardroid.rentalio.ui.pages.help
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

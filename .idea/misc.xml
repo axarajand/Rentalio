@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Test/Github/app/src/main/res/drawable/dot_agree.xml" value="0.22407407407407406" />
+        <entry key="..\:/Test/Github/app/src/main/res/drawable/dot_slider.xml" value="0.22407407407407406" />
+        <entry key="..\:/Test/Github/app/src/main/res/layout/fragment_date.xml" value="0.1390625" />
+        <entry key="..\:/Test/Github/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Test/Github/app/src/main/res/layout/fragment_vehicle_book.xml" value="0.27447916666666666" />
+        <entry key="..\:/Test/Github/app/src/main/res/layout/holder_car_choose.xml" value="0.1814814814814815" />
+        <entry key="..\:/Test/Github/app/src/main/res/layout/holder_car_detail.xml" value="0.1814814814814815" />
+        <entry key="..\:/Test/Github/app/src/main/res/layout/item_banner_slider.xml" value="0.264" />
+        <entry key="..\:/Test/Github/app/src/main/res/layout/layout_toolbar.xml" value="0.1814814814814815" />
         <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/bg_bottom_date.xml" value="0.23425925925925925" />
         <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/bg_text_date.xml" value="0.2740740740740741" />
         <entry key="..\:/YouTube/Video/1 (Authentication)/Rentalio/app/src/main/res/drawable/color_box.xml" value="0.2740740740740741" />

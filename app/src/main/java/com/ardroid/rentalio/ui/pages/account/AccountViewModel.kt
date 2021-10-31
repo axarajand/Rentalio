@@ -1,4 +1,4 @@
-package com.ardroid.rentalio.ui.account
+package com.ardroid.rentalio.ui.pages.account
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

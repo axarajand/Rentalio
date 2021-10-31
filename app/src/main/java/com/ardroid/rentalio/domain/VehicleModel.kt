@@ -1,4 +1,6 @@
-package com.ardroid.rentalio
+package com.ardroid.rentalio.domain
+
+import com.ardroid.rentalio.R
 
 data class VehicleModel(
     val image: Int,
